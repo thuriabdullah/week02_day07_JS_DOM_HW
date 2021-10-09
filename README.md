@@ -1,4 +1,16 @@
-# Dom Task1
+# Function and Dom HW
+## Factorial 
+- Write a function that accept one number and return the factorial for that number
+- example: if the number passed is: 3 ( 3*2*1 ) return 6  
+
+## FizzBuzz function
+- Write a function that accepts an argument of a number
+- If it is a multiple of 3, return "Fizz" instead of the number.
+- If it is a multiple of 5, return "Buzz" instead of the number.
+- If it is a multiple of both 3 and 5, return "FizzBuzz" instead of the number.
+- Otherwise, return the number.
+
+## Dom Task1
 Start of with Modifying the basic HTML page called math.html
 - Create a JavaScript ﬁle called task2.js.
 - Modify the HTML and write the JavaScript necessary to create a web page that allows a user to do some basic mathematical computations(addition, subtraction, multiplication and division).
@@ -7,7 +19,7 @@ white_check_mark
 eyes
 raised_hands
 
-# Dom Task2
+## Dom Task2
 Start of with the following:
 - Create a basic HTML ﬁle (called `task3.html`) with a few headings, paragraphs, forms and images. Ensure that each item has an ID assigned to it. You will use this HTML page to get input and display output for each task listed below. Write the JavaScript needed in a ﬁle called `task3.js`.
 - Create a function which counts and displays the number of times a `button` has been clicked.
