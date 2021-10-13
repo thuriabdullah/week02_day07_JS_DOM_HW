@@ -5,6 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+	
+	
+	<style>  
+	
+		#clear {  
+			margin: 5px;
+			width: 150px;  
+			border: 1px solid black;  
+			border-radius: 3px;  
+			color: white;
+			padding: 10px;  
+			background-color: gray;  
+			cursor: pointer;
+		}  
+		
+		.formstyle  
+		{  
+			width: 400px;  
+			height: 600px;  
+			border: 1px solid gray;  
+			border-radius: 3px;  
+			padding: 25px;  
+		}  
+		
+		.result  
+		{  
+			color: gray;  
+			border: 5px solid black;  
+			border-radius: 5px;  
+			padding: 25px;  
+			margin: 10px;  
+			font-size: 15px;  
+		}  
+		
+		.btn  
+		{  
+			cursor: pointer;
+			width: 80px;  
+			text-align: center;
+			background-color: gray;  
+			color: white;  
+			border: 3px solid gray;  
+			border-radius: 5px;  
+			padding: 26px;  
+			margin: 5px;  
+			font-size: 15px;  
+		}  
+		
+		
+		#equals{  
+			width: 80%;   
+			border: 5px solid black;  
+			border-radius: 3px;  
+			padding: 20px;  
+			margin: auto;  
+		}  
+  
+	</style> 
+
+
   </head>
   <body>
     <h1>The first heading</h1>
@@ -28,6 +88,52 @@
     <br />
     <label for="elements">Choose an option:</label>
     <select name="elements" id="elements"></select>
-    <script type="text/javascript" src="task3.js"></script>
+	
+	
+	<!-- Create Calculater -->
+	<hr/>
+	<h3>The Calculater (Bonus)</h3>
+	<div class= "formstyle">  
+		<form name="equals_form">  
+			
+		<input id="equals" class="result" type="text" name="answer"> <br> 
+		
+		<input type="button" value="Clear" onclick="clearit()" id= "clear" >  
+		<br> 
+		
+		
+		<input class="btn" type="button" value="7" onclick="Add('7')">  
+		<input class="btn" type="button" value="8" onclick="Add('8')">  
+		<input class="btn" type="button" value="9" onclick="Add('9')">  
+		<input class="btn" type="button" value="+" onclick="Add('+')">  
+		<br>
+			
+		<input class="btn" type="button" value="4" onclick="Add('4')">  
+		<input class="btn" type="button" value="5" onclick="Add('5')">  
+		<input class="btn" type="button" value="6" onclick="Add('6')">  
+		<input class="btn" type="button" value="-" onclick="Add('-')">  
+		<br> 
+		
+		<input class="btn" type="button" value="1" onclick="Add('1')">  
+		<input class="btn" type="button" value="2" onclick="Add('2')">  
+		<input class="btn" type="button" value="3" onclick="Add('3')">  
+		<input class="btn" type="button" value="×" onclick="Add('*')">  
+		<br>
+			
+		<input class="btn" type="button" value="0" onclick="Add('0')">  
+		
+		<input class="btn" type="button" value="." onclick="Add('.')">   
+		<input class="btn" type="button" value="=" onclick="calc()">  
+		<input class="btn" type="button" value="÷" onclick="Add('/')">  
+		<br>   
+			
+		</form>  
+	</div>  
+	
+	<!-- End equalsulater -->
+	
+	
+	
+    <script type="text/javascript" src="task2.js"></script>
   </body>
 </html>
